@@ -1,0 +1,68 @@
+html{
+  background-image:linear-gradient(100deg,rgb(252, 252, 252) 10%,rgb(15, 204, 238) 20%,rgba(22, 168, 236, 0.445));
+  background-size: 2000px 2000px;
+  animation: colorAnimation;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+}
+@keyframes colorAnimation{
+  0%{background-color: linear-gradient(100deg,rgb(252, 252, 252) 10%,rgb(15, 204, 238) 20%,rgba(22, 168, 236, 0.445));}
+  50%{background-color: teal}
+  100%{background-color:rgb(255, 255, 255)}
+}
+@keyframes backgroundAnimation{
+  0%{background-color:rgba(255, 255, 255, 0.85);}
+  50%{background-color:rgba(255, 255, 255,0.3);}
+  100%{background-color:rgba(255, 255, 255, 0.87);}
+}
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+h1{
+    font:35px Arial;
+    text-align:center;
+    color:white;
+}
+h2{
+  font: 20px Open Sans;
+  text-align:center;
+  color:rgb(0, 0, 0);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border:1px solid;
+  box-shadow: 10px 10px 10px;
+  animation: backgroundAnimation;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+}
+button{
+  font:15px Arial;
+  box-shadow: inset 0 0 10px teal; /* <-- 10px spread radius */
+  padding:15px;
+  text-align: left;
+}
+button:hover{
+  color:rgb(15, 240, 172);
+  background-color: rgb(0, 0, 0);
+  animation: shake;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+}
+.button{
+  background-color: white;
+  width:105px;
+}

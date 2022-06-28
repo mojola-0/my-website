@@ -40,7 +40,7 @@ h1{
 }
 
 h2{
-  font: 21px  Roboto ;
+  font: 21px  Arial ;
   text-align:center;
   color:rgb(0, 0, 0);
   padding-top: 5px;
@@ -64,7 +64,22 @@ h2{
   width:105px;
   font:15px Arial;
   box-shadow: inset 0 0 10px teal; /* <-- 10px spread radius */
-  padding:15px;
+  padding:2px;
   text-align: left;
-  
 }
+.contact{
+  margin:auto;
+  display:block;
+  font:25px Georgia;
+  border:5px solid black;
+}
+.contact:hover{
+  background-color: rgba(0, 247, 255, 0.726);
+}
+.eIMG{
+  width:40px;
+  height:40px;
+  margin-bottom: -9px;
+}
+a { text-decoration: none;
+color:black; }

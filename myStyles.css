@@ -30,7 +30,7 @@ h2{
   border:2px solid black;
 }
 h3{
-  font: 16px Monospace;
+  font: 18px Monospace;
   text-align:center;
   border:2px solid;
   width: 60%;  
@@ -38,6 +38,3 @@ h3{
   margin-left: auto;
   margin-right: auto;
 }
-
-
-
